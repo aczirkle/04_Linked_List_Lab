@@ -19,6 +19,7 @@ template <class T>
 LinkedList<T>::~LinkedList() {
 	while(numItems!=0)
 	remove(0);
+	delete dummyNode;
 }
 
 template <class T>
